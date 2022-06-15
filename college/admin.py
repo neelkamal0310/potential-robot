@@ -12,6 +12,11 @@ class StudentAdmin(admin.ModelAdmin):
         "mobile_number",
         "batch",
         "major",
+        "address",
+        "city",
+        "state",
+        "guardian_name",
+        "guardian_number",
     ]
     # Search fields
     search_fields = [
